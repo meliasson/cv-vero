@@ -1,0 +1,135 @@
+html {
+    margin: 0;
+    color: black;
+    font: 10pt/1.26 "Gill Sans", sans-serif;
+    text-align: justify;
+}
+body {
+    margin: 12mm;
+   /* font: georgia, serif;
+    font-size: 12pt;
+    margin: 1.5em;
+    width: 95%;*/
+    background: white;
+}
+
+@page{
+size: auto;   /* auto is the initial value */
+
+    /* this affects the margin in the printer settings */
+    margin: 25mm 25mm 25mm 25mm;
+@top-right {
+content: "Page " counter(page); }
+
+}
+
+
+#content {
+    width: 100%;
+    margin: 0;
+    float: none;
+}
+
+#header {
+    text-align: center;
+    margin-top:-1em;
+    margin-bottom: 3em;
+}
+
+
+a,
+a:link,
+a:visited {
+    border: none;
+    color: black;
+    text-decoration:none;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Gill Sans", sans-serif;
+    color:#000000;
+    line-height: 1.375;
+    page-break-after: avoid;
+}
+h1 {
+    font-size: 18px;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: #990000;
+    font-weight: bold;
+}
+h2 {
+    font-size: 16px;
+    font-weight: 500;
+    font-weight: bold;
+
+}
+h3 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+ol.a {list-style-type: circle;}
+
+.A ol {margin:0 0 0 2em; padding:0; list-style: none; counter-reset: chapter 21;}
+.A ol li+li { margin:0;
+    margin-top: 1em;
+  padding:0 0 0 2em;
+  text-indent:-2em; counter-increment: chapter -1; list-style: none;}
+.A ol li:before {font-weight:bold; content: "A" counter(chapter) ". ";}
+
+
+.B ol {margin:0 0 0 2em; padding:0; list-style: none; counter-reset: chapter 7;}
+.B ol li+li { margin:0;
+    margin-top: 1em;
+  padding:0 0 0 2em;
+  text-indent:-2em; counter-increment: chapter -1; list-style: none;}
+.B ol li:before {font-weight:bold; content: "B" counter(chapter) ". ";}
+
+
+.C ol {margin:0 0 0 2em; padding:0; list-style: none; counter-reset: chapter 7;}
+.C ol li+li { margin:0;
+    margin-top: 1em;
+  padding:0 0 0 2em;
+  text-indent:-2em; counter-increment: chapter -1; list-style: none;}
+.C ol li:before {font-weight:bold; content: "C" counter(chapter) ". ";}
+
+.D ol {margin:0 0 0 2em; padding:0; list-style: none; counter-reset: chapter 54;}
+.D ol li+li { margin:0;
+    margin-top: 1em;
+  padding:0 0 0 2em;
+  text-indent:-2em; counter-increment: chapter -1; list-style: none;}
+.D ol li:before {font-weight:bold; content: "D" counter(chapter) ". ";}
+
+
+.E ol {margin:0 0 0 2em; padding:0; list-style: none; counter-reset: chapter 19;}
+.E ol li+li { margin:0;
+    margin-top: 1em;
+  padding:0 0 0 2em;
+  text-indent:-2em; counter-increment: chapter -1; list-style: none;}
+.E ol li:before {font-weight:bold; content: "E" counter(chapter) ". ";}
+
+
+.F ol {margin:0 0 0 2em; padding:0; list-style: none; counter-reset: chapter 23;}
+.F ol li+li { margin:0;
+    margin-top: 1em;
+  padding:0 0 0 2em;
+  text-indent:-2em; counter-increment: chapter -1; list-style: none;}
+.F ol li:before {font-weight:bold; content: "F" counter(chapter) ". ";}
+
+
+
+.G1 ol {margin:0 0 0 2em; padding:0; list-style: none; counter-reset: chapter 16;}
+.G1 ol li+li { margin:0;
+    margin-top: 1em;
+  padding:0 0 0 2em;
+  text-indent:-2em; counter-increment: chapter -1; list-style: none;}
+.G1 ol li:before {font-weight:bold; content: "G" counter(chapter) ". ";}
+
+.G2 ol {margin:0 0 0 2em; padding:0; list-style: none; counter-reset: chapter 9;}
+.G2 ol li+li { margin:0;
+    margin-top: 1em;
+  padding:0 0 0 2em;
+  text-indent:-2em; counter-increment: chapter -1; list-style: none;}
+.G2 ol li:before {font-weight:bold; content: "G" counter(chapter) ". ";}
