@@ -173,7 +173,7 @@ table {
 }
 td {
   vertical-align: top;
-  padding-left: 15px;
+  padding-right: 15px;
 }
 tr.padding-top td {
   padding-top: 1em;
