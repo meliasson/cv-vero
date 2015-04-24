@@ -42,23 +42,27 @@
    ========================================================================== */
 body {
   font-family: Raleway;
-  color: #444;
+  font-family: 'Abel', sans-serif;
+  color: #657b83;
   line-height: 1.2;
-  font-size: 12px;
-  /* text-align: justify; */
+  font-size: 16px;
+  text-align: justify;
+  background: #fdf6e3;
 }
 /* ==========================================================================
    Typography
    ========================================================================== */
 h1, h2, h3, h4 {
-  color: #333;
+  color: #b58900;
   line-height: 1.375;
 }
 h1 {
-  font-size: 24px;
+  font-size: 4em;
+  line-height: 1;
   font-weight: 200;
   text-transform: uppercase;
-  background-color: #CCE0FF;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  margin-bottom: 0;
 }
 h2 {
   font-size: 18px;
