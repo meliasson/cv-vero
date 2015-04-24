@@ -1,175 +1,259 @@
-/*--========================== Google Fonts ==================================--*/
+/* ==========================================================================
+   Google Fonts
+   ========================================================================== */
 @font-face {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 200;
-    src: local('Raleway ExtraLight'), local('Raleway-ExtraLight'), url(http://themes.googleusercontent.com/static/fonts/raleway/v6/8KhZd3VQBtXTAznvKjw-k73hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Raleway ExtraLight'), local('Raleway-ExtraLight'), url(http://themes.googleusercontent.com/static/fonts/raleway/v6/8KhZd3VQBtXTAznvKjw-k73hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
 }
 @font-face {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 300;
-    src: local('Raleway Light'), local('Raleway-Light'), url(http://themes.googleusercontent.com/static/fonts/raleway/v6/-_Ctzj9b56b8RgXW8FArib3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Raleway Light'), local('Raleway-Light'), url(http://themes.googleusercontent.com/static/fonts/raleway/v6/-_Ctzj9b56b8RgXW8FArib3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
 }
 @font-face {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Raleway'), url(http://themes.googleusercontent.com/static/fonts/raleway/v6/cIFypx4yrWPDz3zOxk7hIQLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), url(http://themes.googleusercontent.com/static/fonts/raleway/v6/cIFypx4yrWPDz3zOxk7hIQLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
 }
 @font-face {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 500;
-    src: local('Raleway Medium'), local('Raleway-Medium'), url(http://themes.googleusercontent.com/static/fonts/raleway/v6/CcKI4k9un7TZVWzRVT-T873hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Raleway Medium'), local('Raleway-Medium'), url(http://themes.googleusercontent.com/static/fonts/raleway/v6/CcKI4k9un7TZVWzRVT-T873hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
 }
 @font-face {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 600;
-    src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url(http://themes.googleusercontent.com/static/fonts/raleway/v6/xkvoNo9fC8O2RDydKj12b73hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url(http://themes.googleusercontent.com/static/fonts/raleway/v6/xkvoNo9fC8O2RDydKj12b73hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
 }
 @font-face {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Raleway Bold'), local('Raleway-Bold'), url(http://themes.googleusercontent.com/static/fonts/raleway/v6/JbtMzqLaYbbbCL9X6EvaI73hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Raleway Bold'), local('Raleway-Bold'), url(http://themes.googleusercontent.com/static/fonts/raleway/v6/JbtMzqLaYbbbCL9X6EvaI73hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
 }
-/*--===========================    body stylin'    ==============================--*/
+/* ==========================================================================
+   Body stylin'
+   ========================================================================== */
 body {
-    font-family: Raleway;
-    color: #444;
-    line-height: 1.2;
-    font-size: 12px;
-    text-align: justify;
+  font-family: Raleway;
+  color: #444;
+  line-height: 1.2;
+  font-size: 12px;
+  text-align: justify;
 }
-/* ================== Typography ================*/
+/* ==========================================================================
+   Typography
+   ========================================================================== */
 h1, h2, h3, h4 {
-    color: #333;
-    line-height: 1.375;
+  color: #333;
+  line-height: 1.375;
 }
 h1 {
-    font-size: 24px;
-    font-weight: 200;
-    text-transform: uppercase;
-    background-color: #CCE0FF;
+  font-size: 24px;
+  font-weight: 200;
+  text-transform: uppercase;
+  background-color: #CCE0FF;
 }
 h2 {
-    font-size: 18px;
-    font-weight: 500;
+  font-size: 18px;
+  font-weight: 500;
 
 }
 h3 {
-    font-size: 18px;
-    font-weight: 300;
+  font-size: 18px;
+  font-weight: 300;
 }
 p {
-    font-size: 100%;
-    padding-right: 3em;
+  font-size: 100%;
+  padding-right: 3em;
 }
 a {
-    color: #1abc9c;
-    text-decoration: underline;
+  color: #1abc9c;
+  text-decoration: underline;
 }
 a:hover {
-    color: #2ff3cc;
-    text-decoration: none;
-    -webkit-transition: 0.25s;
-    -moz-transition: 0.25s;
-    -o-transition: 0.25s;
-    transition: 0.25s;
+  color: #2ff3cc;
+  text-decoration: none;
+  -webkit-transition: 0.25s;
+  -moz-transition: 0.25s;
+  -o-transition: 0.25s;
+  transition: 0.25s;
 }
-
 #content {
-	width: 62.66666666666667%;	/* 470 / 750 = 0.6266666666666667 */
-	margin: 0 auto;
+  width: 62.66666666666667%;      /* 470 / 750 = 0.6266666666666667 */
+  margin: 0 auto;
 }
-
 #header {
-    text-align: center;
+  text-align: center;
 }
-
-ol.a {list-style-type: circle; list-style-position: inside;}
-
-.A ol {margin:0 0 0 2em; padding:0; list-style: none; counter-reset: chapter 21; }
-.A ol li+li { margin:0;
-    margin-top: 1em;
-  padding:0 0 0 2em;
-  text-indent:-2em; counter-increment: chapter -1; list-style: none;}
-.A ol li:before {font-weight:bold; content: "A" counter(chapter) ". "; }
-
-
-.B ol {margin:0 0 0 2em; padding:0; list-style: none; counter-reset: chapter 7;}
-.B ol li+li { margin:0;
-    margin-top: 1em;
-  padding:0 0 0 2em;
-  text-indent:-2em; counter-increment: chapter -1; list-style: none;}
-.B ol li:before {font-weight:bold; content: "B" counter(chapter) ". ";}
-
-
-.C ol {margin:0 0 0 2em; padding:0; list-style: none; counter-reset: chapter 7;}
-.C ol li+li { margin:0;
-    margin-top: 1em;
-  padding:0 0 0 2em;
-  text-indent:-2em; counter-increment: chapter -1; list-style: none;}
-.C ol li:before {font-weight:bold; content: "C" counter(chapter) ". ";}
-
-.D ol {margin:0 0 0 2em; padding:0; list-style: none; counter-reset: chapter 54;}
-.D ol li+li { margin:0;
-    margin-top: 1em;
-  padding:0 0 0 2em;
-  text-indent:-2em; counter-increment: chapter -1; list-style: none;}
-.D ol li:before {font-weight:bold; content: "D" counter(chapter) ". ";}
-
-
-.E ol {margin:0 0 0 2em; padding:0; list-style: none; counter-reset: chapter 19;}
-.E ol li+li { margin:0;
-    margin-top: 1em;
-  padding:0 0 0 2em;
-  text-indent:-2em; counter-increment: chapter -1; list-style: none;}
-.E ol li:before {font-weight:bold; content: "E" counter(chapter) ". ";}
-
-
-.F ol {margin:0 0 0 2em; padding:0; list-style: none; counter-reset: chapter 23;}
-.F ol li+li { margin:0;
-    margin-top: 1em;
-  padding:0 0 0 2em;
-  text-indent:-2em; counter-increment: chapter -1; list-style: none;}
-.F ol li:before {font-weight:bold; content: "F" counter(chapter) ". ";}
-
-
-
-
-.G1 ol {margin:0 0 0 2em; padding:0; list-style: none; counter-reset: chapter 16;}
-.G1 ol li+li { margin:0;
-    margin-top: 1em;
-  padding:0 0 0 2em;
-  text-indent:-2em; counter-increment: chapter -1; list-style: none;}
-.G1 ol li:before {font-weight:bold; content: "G" counter(chapter) ". ";}
-
-.G2 ol {margin:0 0 0 2em; padding:0; list-style: none; counter-reset: chapter 9;}
-.G2 ol li+li { margin:0;
-    margin-top: 1em;
-  padding:0 0 0 2em;
-  text-indent:-2em; counter-increment: chapter -1; list-style: none;}
-.G2 ol li:before {font-weight:bold; content: "G" counter(chapter) ". ";}
-
-
-
-
+ol.a {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+.A ol {
+  margin: 0 0 0 2em;
+  padding: 0;
+  list-style: none;
+  counter-reset: chapter 21;
+}
+.A ol li+li {
+  margin: 0;
+  margin-top: 1em;
+  padding: 0 0 0 2em;
+  text-indent: -2em;
+  counter-increment: chapter -1;
+  list-style: none;
+}
+.A ol li:before {
+  font-weight: bold;
+  content: "A" counter(chapter) ". ";
+}
+.B ol {
+  margin: 0 0 0 2em;
+  padding: 0;
+  list-style: none;
+  counter-reset: chapter 7;
+}
+.B ol li+li {
+  margin: 0;
+  margin-top: 1em;
+  padding: 0 0 0 2em;
+  text-indent: -2em;
+  counter-increment: chapter -1;
+  list-style: none;
+}
+.B ol li:before {
+  font-weight: bold;
+  content: "B" counter(chapter) ". ";
+}
+.C ol {
+  margin: 0 0 0 2em;
+  padding: 0;
+  list-style: none;
+  counter-reset: chapter 7;
+}
+.C ol li+li {
+  margin: 0;
+  margin-top: 1em;
+  padding: 0 0 0 2em;
+  text-indent: -2em;
+  counter-increment: chapter -1;
+  list-style: none;
+}
+.C ol li:before {
+  font-weight: bold;
+  content: "C" counter(chapter) ". ";
+}
+.D ol {
+  margin: 0 0 0 2em;
+  padding: 0;
+  list-style: none;
+  counter-reset: chapter 54;
+}
+.D ol li+li {
+  margin: 0;
+  margin-top: 1em;
+  padding: 0 0 0 2em;
+  text-indent: -2em;
+  counter-increment: chapter -1;
+  list-style: none;
+}
+.D ol li:before {
+  font-weight: bold;
+  content: "D" counter(chapter) ". ";
+}
+.E ol {
+  margin: 0 0 0 2em;
+  padding: 0;
+  list-style: none;
+  counter-reset: chapter 19;
+}
+.E ol li+li {
+  margin: 0;
+  margin-top: 1em;
+  padding: 0 0 0 2em;
+  text-indent: -2em;
+  counter-increment: chapter -1;
+  list-style: none;
+}
+.E ol li:before {
+  font-weight: bold;
+  content: "E" counter(chapter) ". ";
+}
+.F ol {
+  margin: 0 0 0 2em;
+  padding: 0;
+  list-style: none;
+  counter-reset: chapter 23;
+}
+.F ol li+li {
+  margin: 0;
+  margin-top: 1em;
+  padding: 0 0 0 2em;
+  text-indent: -2em;
+  counter-increment: chapter -1;
+  list-style: none;
+}
+.F ol li:before {
+  font-weight: bold;
+  content: "F" counter(chapter) ". ";
+}
+.G1 ol {
+  margin: 0 0 0 2em;
+  padding: 0;
+  list-style: none;
+  counter-reset: chapter 16;
+}
+.G1 ol li+li {
+  margin: 0;
+  margin-top: 1em;
+  padding: 0 0 0 2em;
+  text-indent: -2em;
+  counter-increment: chapter -1;
+  list-style: none;
+}
+.G1 ol li:before {
+  font-weight: bold;
+  content: "G" counter(chapter) ". ";
+}
+.G2 ol {
+  margin: 0 0 0 2em;
+  padding: 0;
+  list-style: none;
+  counter-reset: chapter 9;}
+.G2 ol li+li {
+  margin: 0;
+  margin-top: 1em;
+  padding: 0 0 0 2em;
+  text-indent: -2em;
+  counter-increment: chapter -1;
+  list-style: none;
+}
+.G2 ol li:before {
+  font-weight: bold;
+  content: "G" counter(chapter) ". ";
+}
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
-	margin-bottom: 1.75em;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 1.75em;
 }
-
-td { vertical-align: top;
-    padding-right: 15px;}
-th, td { text-align: left; }
-
-.line-separator{
-height:1px;
-background:#ffffff;
-border-bottom:1px solid #717171;
-margin-top:10px;
+td {
+  vertical-align: top;
+  padding-right: 15px;
+}
+th, td {
+  text-align: left;
+}
+.line-separator {
+  height:1px;
+  background:#ffffff;
+  border-bottom:1px solid #717171;
+  margin-top:10px;
 }
