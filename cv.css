@@ -45,7 +45,7 @@ body {
   color: #444;
   line-height: 1.2;
   font-size: 12px;
-  text-align: justify;
+  /* text-align: justify; */
 }
 /* ==========================================================================
    Typography
@@ -86,164 +86,90 @@ a:hover {
   transition: 0.25s;
 }
 #content {
-  width: 62.66666666666667%;      /* 470 / 750 = 0.6266666666666667 */
+  width: 62.66666666666667%; /* 470 / 750 = 0.6266666666666667 */
   margin: 0 auto;
 }
 #header {
   text-align: center;
 }
-ol.a {
+ul {
+  margin: 0 0 0 20px;
   list-style-type: circle;
   list-style-position: inside;
+  text-indent: -1em;
+  padding-left: 1em;
 }
-.A ol {
-  margin: 0 0 0 2em;
+ol {
+  margin: 0 0 0 20px;
   padding: 0;
-  list-style: none;
-  counter-reset: chapter 22;
+  list-style-type: none;
 }
-.A ol li {
-  margin: 0;
-  margin-top: 1em;
-  padding: 0 0 0 2em;
+li {
+  margin: 1em 0 1em 0;
+}
+ol li {
+  /* margin-top: 1em; */
+  /* margin-bottom: 1em; */
+  padding-left: 2em;
   text-indent: -2em;
   counter-increment: chapter -1;
-  list-style: none;
+}
+ol li:before {
+  font-weight: bold;
+}
+.A ol {
+  counter-reset: chapter 22;
 }
 .A ol li:before {
-  font-weight: bold;
   content: "A" counter(chapter) ". ";
 }
 .B ol {
-  margin: 0 0 0 2em;
-  padding: 0;
-  list-style: none;
   counter-reset: chapter 8;
 }
-.B ol li {
-  margin: 0;
-  margin-top: 1em;
-  padding: 0 0 0 2em;
-  text-indent: -2em;
-  counter-increment: chapter -1;
-  list-style: none;
-}
 .B ol li:before {
-  font-weight: bold;
   content: "B" counter(chapter) ". ";
 }
 .C ol {
-  margin: 0 0 0 2em;
-  padding: 0;
-  list-style: none;
   counter-reset: chapter 8;
 }
-.C ol li {
-  margin: 0;
-  margin-top: 1em;
-  padding: 0 0 0 2em;
-  text-indent: -2em;
-  counter-increment: chapter -1;
-  list-style: none;
-}
 .C ol li:before {
-  font-weight: bold;
   content: "C" counter(chapter) ". ";
 }
 .D ol {
-  margin: 0 0 0 2em;
-  padding: 0;
-  list-style: none;
   counter-reset: chapter 55;
 }
-.D ol li {
-  margin: 0;
-  margin-top: 1em;
-  padding: 0 0 0 2em;
-  text-indent: -2em;
-  counter-increment: chapter -1;
-  list-style: none;
-}
 .D ol li:before {
-  font-weight: bold;
   content: "D" counter(chapter) ". ";
 }
 .E ol {
-  margin: 0 0 0 2em;
-  padding: 0;
-  list-style: none;
   counter-reset: chapter 20;
 }
-.E ol li {
-  margin: 0;
-  margin-top: 1em;
-  padding: 0 0 0 2em;
-  text-indent: -2em;
-  counter-increment: chapter -1;
-  list-style: none;
-}
 .E ol li:before {
-  font-weight: bold;
   content: "E" counter(chapter) ". ";
 }
 .F ol {
-  margin: 0 0 0 2em;
-  padding: 0;
-  list-style: none;
   counter-reset: chapter 24;
 }
-.F ol li {
-  margin: 0;
-  margin-top: 1em;
-  padding: 0 0 0 2em;
-  text-indent: -2em;
-  counter-increment: chapter -1;
-  list-style: none;
-}
 .F ol li:before {
-  font-weight: bold;
   content: "F" counter(chapter) ". ";
 }
 .G1 ol {
-  margin: 0 0 0 2em;
-  padding: 0;
-  list-style: none;
   counter-reset: chapter 17;
 }
-.G1 ol li {
-  margin: 0;
-  margin-top: 1em;
-  padding: 0 0 0 2em;
-  text-indent: -2em;
-  counter-increment: chapter -1;
-  list-style: none;
-}
 .G1 ol li:before {
-  font-weight: bold;
   content: "G" counter(chapter) ". ";
 }
 .G2 ol {
-  margin: 0 0 0 2em;
-  padding: 0;
-  list-style: none;
   counter-reset: chapter 10;
 }
-.G2 ol li {
-  margin: 0;
-  margin-top: 1em;
-  padding: 0 0 0 2em;
-  text-indent: -2em;
-  counter-increment: chapter -1;
-  list-style: none;
-}
 .G2 ol li:before {
-  font-weight: bold;
   content: "G" counter(chapter) ". ";
 }
 table {
   border-collapse: collapse;
   border-spacing: 0;
   margin-bottom: 1.75em;
+  margin-left: 20px;
 }
 td {
   vertical-align: top;
@@ -251,10 +177,4 @@ td {
 }
 th, td {
   text-align: left;
-}
-.line-separator {
-  height:1px;
-  background:#ffffff;
-  border-bottom:1px solid #717171;
-  margin-top:10px;
 }
