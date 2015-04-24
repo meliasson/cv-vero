@@ -100,9 +100,9 @@ ol.a {
   margin: 0 0 0 2em;
   padding: 0;
   list-style: none;
-  counter-reset: chapter 21;
+  counter-reset: chapter 22;
 }
-.A ol li+li {
+.A ol li {
   margin: 0;
   margin-top: 1em;
   padding: 0 0 0 2em;
@@ -118,9 +118,9 @@ ol.a {
   margin: 0 0 0 2em;
   padding: 0;
   list-style: none;
-  counter-reset: chapter 7;
+  counter-reset: chapter 8;
 }
-.B ol li+li {
+.B ol li {
   margin: 0;
   margin-top: 1em;
   padding: 0 0 0 2em;
@@ -136,9 +136,9 @@ ol.a {
   margin: 0 0 0 2em;
   padding: 0;
   list-style: none;
-  counter-reset: chapter 7;
+  counter-reset: chapter 8;
 }
-.C ol li+li {
+.C ol li {
   margin: 0;
   margin-top: 1em;
   padding: 0 0 0 2em;
@@ -154,9 +154,9 @@ ol.a {
   margin: 0 0 0 2em;
   padding: 0;
   list-style: none;
-  counter-reset: chapter 54;
+  counter-reset: chapter 55;
 }
-.D ol li+li {
+.D ol li {
   margin: 0;
   margin-top: 1em;
   padding: 0 0 0 2em;
@@ -172,9 +172,9 @@ ol.a {
   margin: 0 0 0 2em;
   padding: 0;
   list-style: none;
-  counter-reset: chapter 19;
+  counter-reset: chapter 20;
 }
-.E ol li+li {
+.E ol li {
   margin: 0;
   margin-top: 1em;
   padding: 0 0 0 2em;
@@ -190,9 +190,9 @@ ol.a {
   margin: 0 0 0 2em;
   padding: 0;
   list-style: none;
-  counter-reset: chapter 23;
+  counter-reset: chapter 24;
 }
-.F ol li+li {
+.F ol li {
   margin: 0;
   margin-top: 1em;
   padding: 0 0 0 2em;
@@ -208,9 +208,9 @@ ol.a {
   margin: 0 0 0 2em;
   padding: 0;
   list-style: none;
-  counter-reset: chapter 16;
+  counter-reset: chapter 17;
 }
-.G1 ol li+li {
+.G1 ol li {
   margin: 0;
   margin-top: 1em;
   padding: 0 0 0 2em;
@@ -226,8 +226,9 @@ ol.a {
   margin: 0 0 0 2em;
   padding: 0;
   list-style: none;
-  counter-reset: chapter 9;}
-.G2 ol li+li {
+  counter-reset: chapter 10;
+}
+.G2 ol li {
   margin: 0;
   margin-top: 1em;
   padding: 0 0 0 2em;
