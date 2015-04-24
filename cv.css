@@ -42,7 +42,8 @@
    ========================================================================== */
 body {
   font-family: Raleway;
-  font-family: 'Abel', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 300;
   color: #657b83;
   line-height: 1.2;
   font-size: 16px;
@@ -78,16 +79,8 @@ p {
   padding-right: 3em;
 }
 a {
-  color: #1abc9c;
+  color: #b58900;
   text-decoration: underline;
-}
-a:hover {
-  color: #2ff3cc;
-  text-decoration: none;
-  -webkit-transition: 0.25s;
-  -moz-transition: 0.25s;
-  -o-transition: 0.25s;
-  transition: 0.25s;
 }
 #content {
   width: 62.66666666666667%; /* 470 / 750 = 0.6266666666666667 */
