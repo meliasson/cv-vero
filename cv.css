@@ -1,64 +1,25 @@
-/* ==========================================================================
-   Google Fonts
-   ========================================================================== */
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 200;
-  src: local('Raleway ExtraLight'), local('Raleway-ExtraLight'), url(http://themes.googleusercontent.com/static/fonts/raleway/v6/8KhZd3VQBtXTAznvKjw-k73hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+html, body {
+  margin: 0;
+  padding: 0;
 }
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Raleway Light'), local('Raleway-Light'), url(http://themes.googleusercontent.com/static/fonts/raleway/v6/-_Ctzj9b56b8RgXW8FArib3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
-}
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Raleway'), url(http://themes.googleusercontent.com/static/fonts/raleway/v6/cIFypx4yrWPDz3zOxk7hIQLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
-}
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 500;
-  src: local('Raleway Medium'), local('Raleway-Medium'), url(http://themes.googleusercontent.com/static/fonts/raleway/v6/CcKI4k9un7TZVWzRVT-T873hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
-}
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 600;
-  src: local('Raleway SemiBold'), local('Raleway-SemiBold'), url(http://themes.googleusercontent.com/static/fonts/raleway/v6/xkvoNo9fC8O2RDydKj12b73hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
-}
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Raleway Bold'), local('Raleway-Bold'), url(http://themes.googleusercontent.com/static/fonts/raleway/v6/JbtMzqLaYbbbCL9X6EvaI73hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
-}
-/* ==========================================================================
-   Body stylin'
-   ========================================================================== */
 body {
-  font-family: Raleway;
+  background: #faf9f2;
   color: #444;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
   line-height: 1.2;
-  font-size: 12px;
-  /* text-align: justify; */
 }
-/* ==========================================================================
-   Typography
-   ========================================================================== */
 h1, h2, h3, h4 {
   color: #333;
   line-height: 1.375;
 }
 h1 {
-  font-size: 24px;
-  font-weight: 200;
+  background: #990000;
+  color: #ffcc00;
+  font-weight: 300;
+  padding-left: 10px;
   text-transform: uppercase;
-  background-color: #CCE0FF;
 }
 h2 {
   font-size: 18px;
@@ -74,11 +35,11 @@ p {
   padding-right: 3em;
 }
 a {
-  color: #1abc9c;
-  text-decoration: underline;
+  color: #990000;
+  text-decoration: none;
 }
 a:hover {
-  color: #2ff3cc;
+  color: #ffcc00;
   text-decoration: none;
   -webkit-transition: 0.25s;
   -moz-transition: 0.25s;
@@ -86,8 +47,11 @@ a:hover {
   transition: 0.25s;
 }
 #content {
+  background: #fff;
+  box-shadow: 0 0 2px rgba(0,0,0,.1);
+  margin: 1em auto;
+  padding: 2em;
   width: 62.66666666666667%; /* 470 / 750 = 0.6266666666666667 */
-  margin: 0 auto;
 }
 #header {
   text-align: center;
