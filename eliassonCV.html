@@ -487,7 +487,17 @@
         <li>Society of Experimental Mechanics, Dynamic Behavior of Materials Technical Division</li>
         <li>ASME Applied Mechanics Division Fracture and Failure Mechanics Technical Committee</li>
       </ul>
+      <br><br><br>
+      <p style="font-size: 0.8125em; text-align: center;">Wow! You made it to the bottom, good job! Treat yourself by <a class="elevator" style="cursor: pointer;">taking the elevator</a> back up!</p>
     </div>
-    <br><br><br><br>
+    <script src="javascript/elevator.min.js"></script>
+    <script>
+     var elementButton = document.querySelector('.elevator');
+     var elevator = new Elevator({
+       element: elementButton,
+       mainAudio: 'sound/music.mp3', // Music from http://www.bensound.com/
+       endAudio:  'sound/ding.mp3', // Music from http://www.bensound.com/
+     });
+    </script>
   </body>
 </html>
