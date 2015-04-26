@@ -16,7 +16,7 @@ h1, h2, h3, h4 {
 }
 h1 {
   background: #990000;
-  color: #ffcc00;
+  color: #FFCC00;
   font-weight: 300;
   padding-left: 10px;
   text-transform: uppercase;
@@ -140,4 +140,9 @@ tr.padding-top td {
 }
 th, td {
   text-align: left;
+}
+
+.veroNumbers{
+font-size: 3em;
+line-height: 60px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: Georgia;
 }
