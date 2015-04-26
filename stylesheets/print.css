@@ -60,7 +60,7 @@ ol.a {
   margin: 0 0 0 2em;
   padding: 0;
   list-style: none;
-  counter-reset: chapter 22;
+  counter-reset: chapter 26;
 }
 .A ol li {
   margin: 0;
@@ -78,7 +78,7 @@ ol.a {
   margin: 0 0 0 2em;
   padding: 0;
   list-style: none;
-  counter-reset: chapter 8;
+  counter-reset: chapter 9;
 }
 .B ol li {
   margin: 0;
