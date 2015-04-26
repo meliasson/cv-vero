@@ -27,6 +27,14 @@ div.align-center {
 div.border-bottom {
   border-bottom: 1px solid #dedcd7;
 }
+div.group {
+  overflow: hidden;
+}
+div.stats {
+  float: left;
+  text-align: center;
+  width: 50%;
+}
 h1, h2, h3, h4 {
   color: #333;
   line-height: 1.375;
