@@ -119,7 +119,7 @@ ol li:before {
   content: "D" counter(chapter) ". ";
 }
 .E ol {
-  counter-reset: chapter 20;
+  counter-reset: chapter 21;
 }
 .E ol li:before {
   content: "E" counter(chapter) ". ";
