@@ -1,71 +1,86 @@
-html {
-  margin: 0;
-  color: black;
-  font: 10pt/1.26 "Computer Modern", serif;
-  text-align: justify;
-}
-body {
-  margin: 12mm 25mm 25mm 8mm;
-  background: white;
-}
 @page {
   size: 5.5in 8.5in;
-  /*   size: auto; /* auto is the initial value */
-  /*  margin: 25mm 25mm 25mm 25mm; /* adjust margin in printer settings */
 }
-#content {
-  width: 100%;
+
+html, body {
   margin: 0;
-  float: none;
+  padding: 0;
 }
+
+body {
+  background: none;
+  color: black;
+  /* font: 10pt/1.26 "Computer Modern Serif", serif; */
+  font-family: "Computer Modern Serif", serif;
+  font-size: 10pt;
+  text-align: justify;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+  /* font-family: "Computer Modern Sans", sans-serif; */
+  /* page-break-after: avoid; */
+}
+
+h1 {
+  border-bottom: 1px solid #990000;
+  color: #990000;
+  font-size: 10pt;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 10pt;
+  margin-top: 15px;
+}
+
+a, a:link, a:visited {
+  border: none;
+  color: black;
+  text-decoration: none;
+}
+
 #header {
   text-align: center;
   margin-top: -1em;
   margin-bottom: 3em;
 }
-a,
-a:link,
-a:visited {
-  border: none;
-  color: black;
-  text-decoration: none;
-}
-h1, h2, h3, h4 {
-  font-family: "Palatino", serif;
-  color: black;
-  line-height: 1.375;
-  page-break-after: avoid;
-}
-h1 {
-  font-size: 16pt;
-  font-weight: 200;
-  text-transform: uppercase;
-  color: #990000;
-  font-weight: bold;
-  margin-bottom: -8pt;
-  border-bottom: 2px solid #990000;
-}
-h2 {
-  font-size: 14pt;
-  font-weight: 500;
-  font-weight: bold;
-  margin-bottom: -2pt;
-}
-h3 {
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 12pt;
-  font-weight: 400;
-  margin-bottom: -4pt;
-}
+
+/* h1 { */
+/*   font-size: 16pt; */
+/*   font-weight: 200; */
+/*   text-transform: uppercase; */
+/*   color: #990000; */
+/*   font-weight: bold; */
+/*   margin-bottom: -8pt; */
+/*   border-bottom: 2px solid #990000; */
+/* } */
+/* h2 { */
+/*   font-size: 14pt; */
+/*   font-weight: 500; */
+/*   font-weight: bold; */
+/*   margin-bottom: -2pt; */
+/* } */
+/* h3 { */
+/*   font-family: 'Roboto Condensed', sans-serif; */
+/*   font-size: 12pt; */
+/*   font-weight: 400; */
+/*   margin-bottom: -4pt; */
+/* } */
+
 ol.a {
   list-style-type: circle;
 }
+
 .A ol {
   margin: 0 0 0 2em;
   padding: 0;
   list-style: none;
   counter-reset: chapter 27;
 }
+
 .A ol li {
   margin: 0;
   margin-top: 1em;
@@ -74,16 +89,19 @@ ol.a {
   counter-increment: chapter -1;
   list-style: none;
 }
+
 .A ol li:before {
   font-weight: bold;
   content: "A" counter(chapter) ". ";
 }
+
 .B ol {
   margin: 0 0 0 2em;
   padding: 0;
   list-style: none;
   counter-reset: chapter 9;
 }
+
 .B ol li {
   margin: 0;
   margin-top: 1em;
@@ -92,16 +110,19 @@ ol.a {
   counter-increment: chapter -1;
   list-style: none;
 }
+
 .B ol li:before {
   font-weight: bold;
   content: "B" counter(chapter) ". ";
 }
+
 .C ol {
   margin: 0 0 0 2em;
   padding: 0;
   list-style: none;
   counter-reset: chapter 8;
 }
+
 .C ol li {
   margin: 0;
   margin-top: 1em;
@@ -110,16 +131,19 @@ ol.a {
   counter-increment: chapter -1;
   list-style: none;
 }
+
 .C ol li:before {
   font-weight: bold;
   content: "C" counter(chapter) ". ";
 }
+
 .D ol {
   margin: 0 0 0 2em;
   padding: 0;
   list-style: none;
   counter-reset: chapter 55;
 }
+
 .D ol li {
   margin: 0;
   margin-top: 1em;
@@ -128,16 +152,19 @@ ol.a {
   counter-increment: chapter -1;
   list-style: none;
 }
+
 .D ol li:before {
   font-weight: bold;
   content: "D" counter(chapter) ". ";
 }
+
 .E ol {
   margin: 0 0 0 2em;
   padding: 0;
   list-style: none;
   counter-reset: chapter 21;
 }
+
 .E ol li {
   margin: 0;
   margin-top: 1em;
@@ -146,16 +173,19 @@ ol.a {
   counter-increment: chapter -1;
   list-style: none;
 }
+
 .E ol li:before {
   font-weight: bold;
   content: "E" counter(chapter) ". ";
 }
+
 .F ol {
   margin: 0 0 0 2em;
   padding: 0;
   list-style: none;
   counter-reset: chapter 24;
 }
+
 .F ol li {
   margin: 0;
   margin-top: 1em;
@@ -164,16 +194,19 @@ ol.a {
   counter-increment: chapter -1;
   list-style: none;
 }
+
 .F ol li:before {
   font-weight: bold;
   content: "F" counter(chapter) ". ";
 }
+
 .G1 ol {
   margin: 0 0 0 2em;
   padding: 0;
   list-style: none;
   counter-reset: chapter 17;
 }
+
 .G1 ol li {
   margin: 0;
   margin-top: 1em;
@@ -182,16 +215,19 @@ ol.a {
   counter-increment: chapter -1;
   list-style: none;
 }
+
 .G1 ol li:before {
   font-weight: bold;
   content: "G" counter(chapter) ". ";
 }
+
 .G2 ol {
   margin: 0 0 0 2em;
   padding: 0;
   list-style: none;
   counter-reset: chapter 10;
 }
+
 .G2 ol li {
   margin: 0;
   margin-top: 1em;
@@ -200,6 +236,7 @@ ol.a {
   counter-increment: chapter -1;
   list-style: none;
 }
+
 .G2 ol li:before {
   font-weight: bold;
   content: "G" counter(chapter) ". ";
@@ -213,6 +250,6 @@ div.align-center {
   text-align: center;
 }
 
-.small{
+.small {
   font-size: 8pt;
 }
