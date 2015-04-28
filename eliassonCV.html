@@ -30,22 +30,22 @@
         <div class="noPrint">
           <div class="h1-container"><h1>Current stats</h1></div>
           <div class="stats">
-            <span class="veroNumbers count">17</span><br>papers written
+            <span class="count">17</span><br>papers written
           </div>
           <div class="stats">
-            <span class="veroNumbers count">54</span><br>conference talks given
+            <span class="count">54</span><br>conference talks given
           </div>
           <div class="stats">
-            <span class="veroNumbers count">5</span><br>awards received
+            <span class="count">5</span><br>awards received
           </div>
           <div class="stats">
-            <span class="veroNumbers count">1264</span><br>thousand dollars in funding
+            <span class="count-fast">1264</span><br>thousand dollars in funding
           </div>
           <div class="stats">
-            <span class="veroNumbers count">8</span><br>PhD students supervised
+            <span class="count">8</span><br>PhD students supervised
           </div>
           <div class="stats">
-            <span class="veroNumbers count">9</span><br>thousand shock waves produced
+            <span class="count">9</span><br>thousand shock waves produced
           </div>
         </div>
       </div>
@@ -626,30 +626,7 @@
       <br><br>
     </div>
     <script src="javascripts/elevator.min.js"></script>
-    <script>
-     var elementButton = document.querySelector('.elevator');
-     var elevator = new Elevator({
-       element: elementButton,
-       mainAudio: 'sounds/music.mp3', // Music from http://www.bensound.com/
-       endAudio:  'sounds/ding.mp3', // Music from http://www.bensound.com/
-     });
-    </script>
     <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-    <script>
-     $(function() {
-       function count($this){
-         var current = parseInt($this.html(), 10);
-         $this.html(++current);
-         if(current !== $this.data('count')){
-           setTimeout(function(){count($this)}, 100);
-         }
-       }
-       $("span.veroNumbers.count").each(function() {
-         $(this).data('count', parseInt($(this).html(), 10));
-         $(this).html('0');
-         count($(this));
-       });
-     });
-    </script>
+    <script src="javascripts/cv.js"></script>
   </body>
 </html>

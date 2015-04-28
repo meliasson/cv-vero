@@ -198,7 +198,7 @@ div.h1-container {
   content: "G" counter(chapter) ". ";
 }
 
-span.count {
+span.count, span.count-fast {
   font-family: Menlo, Consolas, monospace;
   font-size: 3em;
 }
