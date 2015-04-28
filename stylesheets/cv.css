@@ -202,3 +202,7 @@ span.count {
   font-family: Menlo, Consolas, monospace;
   font-size: 3em;
 }
+
+div.noWeb {
+  display:none;
+}

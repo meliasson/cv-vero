@@ -1,9 +1,10 @@
 @page {
-  size: 5.5in 8.5in;
+  size: auto;
+  margin: 15mm;
 }
 
 html, body {
-  margin: 0;
+  /*margin: 0;*/
   padding: 0;
 }
 
@@ -11,7 +12,8 @@ body {
   background: none;
   color: black;
   /* font: 10pt/1.26 "Computer Modern Serif", serif; */
-  font-family: "Computer Modern Serif", serif;
+  /* font-family: "Computer Modern Serif", serif;*/
+  font-family: "Times New Roman", serif;
   font-size: 10pt;
   text-align: justify;
 }
@@ -26,26 +28,39 @@ h1, h2, h3, h4 {
 h1 {
   border-bottom: 1px solid #990000;
   color: #990000;
-  font-size: 10pt;
+  font-size: 11pt;
   margin-top: 20px;
   text-transform: uppercase;
 }
 
 h2 {
-  font-size: 10pt;
+  font-size: 11pt;
   margin-top: 15px;
 }
 
 a, a:link, a:visited {
-  border: none;
-  color: black;
-  text-decoration: none;
-}
+             border: none;
+             color: black;
+             text-decoration: none;
+           }
 
 #header {
   text-align: center;
   margin-top: -1em;
   margin-bottom: 3em;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 5pt;
+  margin-top: 5pt;
+  margin-left: 20px;
+}
+
+td {
+  vertical-align: top;
+  padding-right: 15px;
 }
 
 /* h1 { */
@@ -246,10 +261,23 @@ div.noPrint {
   display:none;
 }
 
+div.noWeb {
+  text-align: center;
+}
+
+.redLink {
+  border-bottom: 1px solid #990000;
+  color: #990000;
+}
+
 div.align-center {
   text-align: center;
 }
 
 .small {
   font-size: 8pt;
+}
+
+ul {
+  list-style-type: circle;
 }
