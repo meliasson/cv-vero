@@ -226,6 +226,7 @@ div.h1-container {
 span.count, span.count-fast {
   font-family: Menlo, Consolas, monospace;
   font-size: 3em;
+  visibility: hidden;
 }
 
 div.noWeb {
@@ -244,5 +245,5 @@ div.noWeb {
 
 .small {
   font-size: 12px;
-    padding-bottom: 5px;
+  padding-bottom: 5px;
 }

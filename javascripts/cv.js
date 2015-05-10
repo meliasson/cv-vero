@@ -9,6 +9,7 @@ function startCounterForLowValues() {
         $(this).data('count', parseInt($(this).html(), 10));
         $(this).data('timeout', 100);
         $(this).html('0');
+        $(this).css('visibility', 'visible');
         count($(this));
     });
 }
@@ -18,6 +19,7 @@ function startCounterForHighValues () {
         $(this).data('count', parseInt($(this).html(), 10));
         $(this).data('timeout', 5);
         $(this).html('0');
+        $(this).css('visibility', 'visible');
         count($(this), 10);
     });
 }
