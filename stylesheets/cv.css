@@ -36,7 +36,7 @@ h3 {
 }
 
 a {
-  color: #ffcc00;
+  color: #FFBD00;
   text-decoration: none;
 }
 
@@ -56,6 +56,15 @@ ul {
   padding-left: 1em;
   text-indent: -1em;
 }
+
+ul.narrow {
+  list-style-type: circle;
+  list-style-position: inside;
+  margin: 0 0 -10px 20px;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
 
 ol {
   list-style-type: none;
@@ -135,7 +144,7 @@ div.h1-container {
 }
 
 .A ol {
-  counter-reset: chapter 27;
+  counter-reset: chapter 22;
 }
 
 .A ol li:before {
@@ -147,7 +156,7 @@ div.h1-container {
 }
 
 .B ol li:before {
-  content: "B" counter(chapter) ". ";
+  content: "C" counter(chapter) ". ";
 }
 
 .C ol {
@@ -155,7 +164,7 @@ div.h1-container {
 }
 
 .C ol li:before {
-  content: "C" counter(chapter) ". ";
+  content: "D" counter(chapter) ". ";
 }
 
 .D ol {
@@ -163,7 +172,7 @@ div.h1-container {
 }
 
 .D ol li:before {
-  content: "D" counter(chapter) ". ";
+  content: "E" counter(chapter) ". ";
 }
 
 .E ol {
@@ -171,7 +180,7 @@ div.h1-container {
 }
 
 .E ol li:before {
-  content: "E" counter(chapter) ". ";
+  content: "F" counter(chapter) ". ";
 }
 
 .F ol {
@@ -179,23 +188,39 @@ div.h1-container {
 }
 
 .F ol li:before {
-  content: "F" counter(chapter) ". ";
+  content: "G" counter(chapter) ". ";
+}
+
+.J ol {
+  counter-reset: chapter 7;
+}
+
+.J ol li:before {
+  content: "B" counter(chapter) ". ";
 }
 
 .G1 ol {
-  counter-reset: chapter 17;
+  counter-reset: chapter 19;
 }
 
 .G1 ol li:before {
-  content: "G" counter(chapter) ". ";
+  content: "H" counter(chapter) ". ";
 }
 
 .G2 ol {
-  counter-reset: chapter 10;
+  counter-reset: chapter 12;
 }
 
 .G2 ol li:before {
-  content: "G" counter(chapter) ". ";
+  content: "H" counter(chapter) ". ";
+}
+
+.I ol {
+  counter-reset: chapter 2;
+}
+
+.I ol li:before {
+  content: "J" counter(chapter) ". ";
 }
 
 span.count, span.count-fast {
@@ -215,4 +240,9 @@ div.noWeb {
   div.container {
     padding: 15px 5px;
   }
+}
+
+.small {
+  font-size: 12px;
+    padding-bottom: 5px;
 }
